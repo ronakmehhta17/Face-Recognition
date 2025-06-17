@@ -14,6 +14,7 @@ while True:
 
     if ret:
         # cv2.imshow("Window", frame)
+        # I have made a change here itself
 
         # this will take it image in gray color
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
